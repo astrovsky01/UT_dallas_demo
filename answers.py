@@ -24,6 +24,6 @@ def q4(answer):
 
 def q5(answer):
     if answer.upper() == "DI" or answer.upper() == "DI.fq":
-        return "Excellent, the overrepresented sequences are the adapters"
+        return "Excellent, there are several reads that have ~10,000 duplicates."
     else:
-        return "If sequences show up very often, it could be that they were used to attach to the reads..."
+        return "Take a look at the Sequence Duplication Levels tab."
