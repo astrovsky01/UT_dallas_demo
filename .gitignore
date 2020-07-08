@@ -1,0 +1,8 @@
+__pycache__/
+.Rhistory
+.ipynb_checkpoints/
+data/*.out
+data/fastqc/D*
+data/multiqc/*
+
+!data/multiqc/.asdf
